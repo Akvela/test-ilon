@@ -20,15 +20,10 @@
 
 @media screen and (max-width: 820px) { 
   .header {
-    height: 140px;
-  }
-}
-
-@media screen and (max-width: 600px) { 
-  .header {
     height: 90px;
   }
 }
+
 
 .header-content {
   max-width: 1170px;
@@ -40,25 +35,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1240px) { 
-  .header-content {
-    justify-content: space-around;
-  }
-}
-
 @media screen and (max-width: 820px) { 
-  .header-content {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 600px) { 
-  .header-content {
-    flex-direction: row;
-  }
-}
-
-@media screen and (max-width: 600px) { 
   .nav-desktop {
     display: none;
   }
@@ -68,7 +45,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 820px) { 
   .nav {
     display: block;
     position: relative;
@@ -83,20 +60,14 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 40px;
+  top: 50px;
+  right: 0;
   width: 198px;
   min-height: 148px;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 4;
-  right: -74px;
   border-radius: 20px;
   padding-top: 10px;
-}
-
-@media screen and (max-width: 490px) { 
-  .nav-mobile_open {
-    right: 9px;
-  }
 }
 
 .nav-mobile_open .menu-link:hover { 
@@ -155,20 +126,13 @@
   align-items: center;
 }
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 1070px) { 
   .menu {
     gap: 25px;
   }
 }
 
 @media screen and (max-width: 820px) { 
-  .menu {
-    height: 25px;
-  }
-}
-
-
-@media screen and (max-width: 600px) { 
   .menu {
     flex-direction: column;
     margin-bottom: 0;
@@ -190,7 +154,7 @@
   border-bottom: 1px solid rgb(61, 61, 61);
 } 
 
-@media screen and (max-width: 1060px) { 
+@media screen and (max-width: 1070px) { 
   .menu-link {
     display: block;
     font-size: 14px;
@@ -198,7 +162,7 @@
   }
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 820px) { 
   .menu-link {
     display: initial;
   }
@@ -207,7 +171,7 @@
 
 @media screen and (max-width: 1190px) { 
   .logo {
-    margin-right: 20px;
+    margin-right: 4px;
   }
 }  
 
