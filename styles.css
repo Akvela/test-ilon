@@ -61,6 +61,7 @@
   .nav {
     display: block;
     position: relative;
+    top: 2px;
   }
 }
 
